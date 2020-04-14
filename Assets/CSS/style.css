@@ -1,6 +1,14 @@
 
-body{
-  background-image: url('https://media.discordapp.net/attachments/686551205555732498/698157368416010240/voiture3.jpg?width=794&height=526');
-  background-size: cover;
-  background-repeat: no-repeat;
+img{
+  width: 50%;
+}
+@media screen and (max-width: 992px){
+  img{
+    width: 75%;
+  }
+}
+@media screen and (max-width: 576px){
+  img{
+    width: 100%;
+  }
 }
